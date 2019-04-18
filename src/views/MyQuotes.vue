@@ -4,12 +4,13 @@
     <div class="header">
       <div>
         <h1>{{user.name}}'s Quotes</h1>
+        <h2>Remove quotes you no longer want in your collection.</h2>
       </div>
     </div>
     <div class="list">
     <div class="quote" v-for="quote in quotes" v-bind:key="quote._id">
       <div class="quote-text">"{{quote.text}}"</div>
-      <p>-{{quote.author}}</p> 
+      <p>-{{quote.author}}</p>
       <form v-on:submit.prevent="deleteQuote(quote._id)">
         <button type="submit">Delete</button>
       </form>
@@ -17,7 +18,7 @@
     </div>
   </div>
   <div v-else>
-    <p>If you would like to upload photos, please register for an account or login.</p>
+    <h2>If you would like to remove quotes from your collection, please register for an account or login.</h2>
   </div>
 </div>
 </template>

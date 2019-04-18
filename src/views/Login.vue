@@ -57,6 +57,7 @@ form {
   background-color: #eee;
   border-radius: 4px;
   padding: 20px;
+  display: inline-block;
 }
 
 .pure-controls {
@@ -65,5 +66,10 @@ form {
 
 .pure-controls button {
   margin-left: auto;
+}
+
+input {
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 </style>

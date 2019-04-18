@@ -7,14 +7,15 @@
       <br />
       <input v-model="$store.state.authorName" placeholder="Author">
       <br />
-      <button type="submit">Post Quote</button> <button @click="logout">Logout</button>
+      <button type="submit">Post Quote</button>
     </form>
+      <button @click="logout">Logout</button>
 
   </div>
   <div v-else>
     <h2>Please login to post your favorite quotes!</h2>
-    <router-link to="/register" class="pure-button">Register</router-link> or
-    <router-link to="/login" class="pure-button">Login</router-link>
+    <router-link to="/register"><button>Register</button></router-link> or
+    <router-link to="/login"><button>Login</button></router-link>
   </div>
 </div>
 </template>
