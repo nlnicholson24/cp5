@@ -13,14 +13,6 @@ const quoteSchema = new mongoose.Schema({
   },
   text: String,
   author: String,
-  likes: {
-    type: Integer,
-    default: 0
-  },
-  dislikes: {
-    type: Integer,
-    default: 0
-  }
 });
 const Quote = mongoose.model('Quote', quoteSchema);
 
