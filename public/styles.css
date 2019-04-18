@@ -1,0 +1,87 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.top {
+  text-align: center;
+  font-size: 70px;
+  font-family: fantasy;
+  background-color: DarkGoldenRod;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%; /* Full width */
+  float: center;
+  text-align: center;
+}
+
+.navbar .links {
+  float: center;
+}
+
+.navbar .links .menu-link {
+  display: block;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 32px;
+  text-decoration: none;
+}
+
+.navbar .links .menu-link:hover {
+  background: #ddd;
+  color: black;
+}
+
+body {
+  text-align: center;
+  background-color: #ddd;
+}
+
+textarea {
+  width: 500px;
+  height: 120px;
+}
+
+input {
+  width: 500px;
+}
+
+button {
+  margin-top: 20px;
+  height: 30px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.quote-text {
+  margin-top:30px;
+  font-style: italic;
+}
+
+p {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.quote {
+  outline-style: solid;
+  outline-width: medium;
+  margin: 20px;
+  display: inline-block;
+  width: 30%;
+  background-color:chocolate;
+}
+
+.list {
+  padding: 20px;
+}
